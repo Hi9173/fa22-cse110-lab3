@@ -1,3 +1,9 @@
 h2 {
-    color:rgb(39, 244, 12)
+    color:rgb(137, 106, 223)
+}
+h3 {
+    color:hsl(120, 50%, 60%, 0.2)
+}
+li {
+    color:#FFF000
 }
