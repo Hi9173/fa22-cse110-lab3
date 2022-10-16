@@ -3,6 +3,7 @@ h2 {
 }
 h3 {
     color:hsl(120, 100%, 75%, 0.3)
+    border: solid;
 }
 li {
     color:#FFF000
