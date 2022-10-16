@@ -1,11 +1,8 @@
 h2 {
     color:rgb(137, 106, 223)
-    border: 2px;
-    padding: 0.5em;
-
 }
 h3 {
-    color:hsl(120, 100%, 50%, 0.3)
+    color:hsl(120, 100%, 75%, 0.3)
 }
 li {
     color:#FFF000
