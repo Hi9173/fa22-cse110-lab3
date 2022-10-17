@@ -16,6 +16,7 @@
     h1 {
         display: inline;
     }
+    /* Applies to every header h2 except Date*/
     section h2 {
         color:rgb(69, 123, 225);
         border: 0.1em;
@@ -117,6 +118,12 @@
         grid-column-end: 5;
         background-color: rgb(24, 220, 161);
     }
+    .p1 {
+        font-family: "Times New Roman", Times, serif;
+    }
+    @media only screen and (min-width: 768px) {
+        .date {width: 100%;}
+    }
   </style>
   <body>
     <header>
@@ -164,7 +171,7 @@
             <div class="grid-item3">3</div>
             <div class="grid-item4">4</div>
         </div>
-        <h2 style="color:red">Date:</h2>
+        <h2 class="date" style="color:red">Date:</h2>
         <section>
             <h2>Overview</h2>
             <span>The purpose of the meeting is to discuss the performance of the
@@ -176,11 +183,11 @@
             <h2>Attendance List</h2>
                 <h3>&emsp; Attended</h3>
                     <ol>
-                        <li>Arley Bellamy</li>
-                        <li>Kay Lynn</li>
-                        <li>Kamal Pate</li>
-                        <li>Emilis Monroe</li>
-                        <li>Jessie Jimenez</li>
+                        <li class="p1">Arley Bellamy</li>
+                        <li class="p1">Kay Lynn</li>
+                        <li class="p1">Kamal Pate</li>
+                        <li class="p1">Emilis Monroe</li>
+                        <li class="p1">Jessie Jimenez</li>
                     </ol>
                 <h3>&emsp; Absence</h3>
                 <ol>
